@@ -4,7 +4,7 @@
   "description": "Blackboard app for LMS systems",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd server && pnpm dev\" \"cd client && pnpm dev\""
+    "dev": "npm run build"
   },
   "keywords": [],
   "author": "Ondrej Dudas",
